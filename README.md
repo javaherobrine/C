@@ -251,6 +251,8 @@ pnpm docs:build
 * ***C Primer Plus*** (ISBN 978-0-321-92842-9)
 * ***Modern C*** (ISBN 978-1-638-35065-1)
 * ***C Programming: A Modern Approach*** (ISBN 978-0-393-87184-5)
+* ***Learning eBPF*** (ISBN 978-1-098-13512-6)
+* ***Windows System Programming, Fourth Edition*** (ISBN 978-0-321-65774-9)
 * ***C 程序设计语言*** (ISBN 978-0-133-08621-8)
 * ***算法导论*** (ISBN 978-7-111-40701-0)
 * ***计算机程序设计艺术***
@@ -260,3 +262,8 @@ pnpm docs:build
 * [***OSDEV***](https://wiki.osdev.org/)
 * [***Hello 算法***](https://hello-algo.com/)
 * [***360 安全规则集合***](https://github.com/Qihoo360/safe-rules/blob/main/c-ub-list.md)
+* [***Microsoft Learn：Windows API***](https://learn.microsoft.com/en-us/windows/win32/apiindex/windows-api-list)
+* [***ebpf.io***](https://ebpf.io/)
+* [***The Linux kernel documentation: BPF***](https://docs.kernel.org/bpf/)
+* [***eBPF for Windows***](https://microsoft.github.io/ebpf-for-windows/)
+* [***bpftrace***](https://www.bpftrace.org/)

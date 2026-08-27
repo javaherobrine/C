@@ -1033,6 +1033,156 @@ export const TutorialSidebar: DefaultTheme.SidebarItem[] = [
         text: "14. 系统程序的健壮性与安全边界",
         link: "/教程/正文/系统编程/14_系统程序的健壮性与安全边界",
       },
+      {
+        text: "拓展A：Windows 系统编程",
+        link: "/教程/正文/系统编程/拓展A_Win32系统编程",
+        collapsed: true,
+        items: [
+          {
+            text: "A.1 Win32 API 概览与 POSIX 对照",
+            link: "/教程/正文/系统编程/拓展A_Win32系统编程/A_1_Win32API概览与POSIX对照",
+          },
+          {
+            text: "A.2 字符与文本：ANSI、Unicode 与 UTF-16",
+            link: "/教程/正文/系统编程/拓展A_Win32系统编程/A_2_字符与文本_ANSI_Unicode与UTF16",
+          },
+          {
+            text: "A.3 内核对象与句柄",
+            link: "/教程/正文/系统编程/拓展A_Win32系统编程/A_3_内核对象与句柄",
+          },
+          {
+            text: "A.4 文件与目录操作",
+            link: "/教程/正文/系统编程/拓展A_Win32系统编程/A_4_文件与目录操作",
+          },
+          {
+            text: "A.5 错误处理与结构化异常处理（SEH）",
+            link: "/教程/正文/系统编程/拓展A_Win32系统编程/A_5_错误处理与结构化异常处理",
+          },
+          {
+            text: "A.6 内存管理与内存映射文件",
+            link: "/教程/正文/系统编程/拓展A_Win32系统编程/A_6_内存管理与内存映射文件",
+          },
+          {
+            text: "A.7 动态链接库（DLL）",
+            link: "/教程/正文/系统编程/拓展A_Win32系统编程/A_7_动态链接库_DLL",
+          },
+          {
+            text: "A.8 进程的创建、执行与等待",
+            link: "/教程/正文/系统编程/拓展A_Win32系统编程/A_8_进程的创建_执行与等待",
+          },
+          {
+            text: "A.9 线程与线程本地存储",
+            link: "/教程/正文/系统编程/拓展A_Win32系统编程/A_9_线程与线程本地存储",
+          },
+          {
+            text: "A.10 同步原语（一）：等待函数与内核对象",
+            link: "/教程/正文/系统编程/拓展A_Win32系统编程/A_10_同步原语_等待函数与内核对象",
+          },
+          {
+            text: "A.11 同步原语（二）：临界区、SRWLock 与条件变量",
+            link: "/教程/正文/系统编程/拓展A_Win32系统编程/A_11_同步原语_临界区_SRWLock与条件变量",
+          },
+          {
+            text: "A.12 管道与进程间通信",
+            link: "/教程/正文/系统编程/拓展A_Win32系统编程/A_12_管道与进程间通信",
+          },
+          {
+            text: "A.13 Winsock 特有主题",
+            link: "/教程/正文/系统编程/拓展A_Win32系统编程/A_13_Winsock特有主题",
+          },
+          {
+            text: "A.14 异步 I/O 与重叠结构",
+            link: "/教程/正文/系统编程/拓展A_Win32系统编程/A_14_异步IO与重叠结构",
+          },
+          {
+            text: "A.15 I/O 完成端口与线程池",
+            link: "/教程/正文/系统编程/拓展A_Win32系统编程/A_15_IO完成端口与线程池",
+          },
+          {
+            text: "A.16 安全与访问控制（ACL 与令牌）",
+            link: "/教程/正文/系统编程/拓展A_Win32系统编程/A_16_安全与访问控制_ACL与令牌",
+          },
+          {
+            text: "A.17 控制台与 ConPTY",
+            link: "/教程/正文/系统编程/拓展A_Win32系统编程/A_17_控制台与ConPTY",
+          },
+          {
+            text: "A.18 Windows 服务、注册表与系统设施",
+            link: "/教程/正文/系统编程/拓展A_Win32系统编程/A_18_Windows服务_注册表与系统设施",
+          },
+        ],
+      },
+      {
+        text: "拓展B：eBPF",
+        link: "/教程/正文/系统编程/拓展B_eBPF",
+        collapsed: true,
+        items: [
+          {
+            text: "B.1 eBPF 概览：历史、架构与应用场景",
+            link: "/教程/正文/系统编程/拓展B_eBPF/B_1_eBPF概览",
+          },
+          {
+            text: "B.2 环境准备与工具链",
+            link: "/教程/正文/系统编程/拓展B_eBPF/B_2_环境准备与工具链",
+          },
+          {
+            text: "B.3 第一个 eBPF 程序",
+            link: "/教程/正文/系统编程/拓展B_eBPF/B_3_第一个eBPF程序",
+          },
+          {
+            text: "B.4 程序的解剖：受限的 C",
+            link: "/教程/正文/系统编程/拓展B_eBPF/B_4_程序的解剖_受限的C",
+          },
+          {
+            text: "B.5 辅助函数与上下文",
+            link: "/教程/正文/系统编程/拓展B_eBPF/B_5_辅助函数与上下文",
+          },
+          {
+            text: "B.6 Map：内核态与用户态的数据交换",
+            link: "/教程/正文/系统编程/拓展B_eBPF/B_6_Map与数据交换",
+          },
+          {
+            text: "B.7 加载与附加：bpf() 系统调用与程序生命周期",
+            link: "/教程/正文/系统编程/拓展B_eBPF/B_7_加载与附加_bpf系统调用与程序生命周期",
+          },
+          {
+            text: "B.8 libbpf、BTF 与 CO-RE",
+            link: "/教程/正文/系统编程/拓展B_eBPF/B_8_libbpf_BTF与CO_RE",
+          },
+          {
+            text: "B.9 验证器",
+            link: "/教程/正文/系统编程/拓展B_eBPF/B_9_验证器",
+          },
+          {
+            text: "B.10 程序类型与附加类型",
+            link: "/教程/正文/系统编程/拓展B_eBPF/B_10_程序类型与附加类型",
+          },
+          {
+            text: "B.11 跟踪与观测：kprobe、uprobe 与 tracepoint",
+            link: "/教程/正文/系统编程/拓展B_eBPF/B_11_跟踪与观测_kprobe_uprobe与tracepoint",
+          },
+          {
+            text: "B.12 网络应用：XDP 与 tc",
+            link: "/教程/正文/系统编程/拓展B_eBPF/B_12_网络应用_XDP与tc",
+          },
+          {
+            text: "B.13 安全应用：seccomp、LSM 与 cgroup",
+            link: "/教程/正文/系统编程/拓展B_eBPF/B_13_安全应用_seccomp_LSM与cgroup",
+          },
+          {
+            text: "B.14 bpftrace 与编程工具链",
+            link: "/教程/正文/系统编程/拓展B_eBPF/B_14_bpftrace与编程工具链",
+          },
+          {
+            text: "B.15 实战：编写一个系统观测工具",
+            link: "/教程/正文/系统编程/拓展B_eBPF/B_15_实战_系统观测工具",
+          },
+          {
+            text: "B.16 eBPF for Windows 与跨平台前景",
+            link: "/教程/正文/系统编程/拓展B_eBPF/B_16_eBPF_for_Windows与跨平台",
+          },
+        ],
+      },
     ],
   },
   {
